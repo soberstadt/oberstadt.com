@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pictures>
+	<cat id="lands">
+		<numberOfPics>7</numberOfPics>
+		<folderName>landscape</folderName>
+		<name>Landscape</name>
+	</cat>
+	<cat id="gc">
+		<numberOfPics>6</numberOfPics>
+		<folderName>gc</folderName>
+		<name>Our Gardens</name>
+	</cat>
+	<cat id="maint">
+		<numberOfPics>2</numberOfPics>
+		<folderName>maint</folderName>
+		<name>Maintenance</name>
+	</cat>
+	<cat id="diy">
+		<numberOfPics>0</numberOfPics>
+		<folderName>diy</folderName>
+		<name>Do It Yourself</name>
+	</cat>
+</pictures>

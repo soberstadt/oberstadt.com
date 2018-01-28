@@ -1,0 +1,274 @@
+@charset "utf-8";
+/*//////////////////////////////
+//                            //
+//  This code is property of  //
+//  Oberstadt Landscape.      //
+//  It was created.           //
+//  and maintained by         //
+//  Spencer T. Oberstadt and  //
+//  affiliates.               //
+//                            //
+//  Writen as part of the     //
+//  current version 2.0       //
+//                            //
+//////////////////////////////*/
+body {
+	text-align: center;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 900px;
+}
+
+/* Start Header */
+#header {
+	text-align:right;
+	word-spacing: 2px;
+}
+
+	#header #logo {
+		float: left;
+		position: relative;
+		top: 25px;
+	}
+
+	#nav {
+		background: #FFFFFF url(../pics/nav_back.gif) no-repeat top left;
+		display: inline-block;
+		height: 95px;
+		width: 635px;
+	} 
+	
+	#navUL { margin: 40px 0 0 0;}
+	
+		ul.dropdown {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			margin: 0 auto;
+			background: #FFFFFF;
+			text-align: left;
+			
+		}
+			
+			ul.dropdown .dir {
+				padding-right: 3px;
+				background: url(../pics/nav/arrow-down-red.png) right center no-repeat;
+			}
+			
+			ul.dropdown a, ul.dropdown span {
+				display: inline-block;
+				padding: 4px 10px;
+				color: #ED1C24;
+			}
+			ul.dropdown a,
+			ul.dropdown a:hover,
+			ul.dropdown a:active {
+				text-decoration: underline;
+			}
+			
+			ul.dropdown a:visited {
+				color: #ED1C24;
+			}
+			
+			ul.dropdown ul {
+				border-style: solid;
+				border-color: #D9D9D9;
+				border-width: 1px 0 0 0;
+				background: #F6F6F6;
+			}
+			
+			ul.dropdown ul a, ul.dropdown ul span {
+				width: 150px;
+			}
+			
+			ul.dropdown ul .dir {background-image:url(../pics/nav/arrow-right-red.png);}
+/* End Header */
+
+#content {
+	color: #333333;
+	margin: 50px 0 0 0;
+	padding: 0 0 20px 0;
+}
+
+	#bodyPicture {
+		background: url(../pics/homeFlashPlaceholder590.jpg) no-repeat top left;
+		height: 540px;
+		width: 590px;
+		float: left;
+	}
+
+#body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 0 25px 20px 25px;
+	word-spacing: 2px;
+	width: 255px;
+	display: inline-block;
+}
+	#body.body--without-picture {
+		width: 100%; 
+		padding: 0 0 20px;
+	}
+
+	#body p, ul {
+		margin-bottom: 20px;
+	}
+	
+	#body ul {
+		word-spacing: 0;
+		line-height: normal;
+	}
+	
+	#body .linkList {
+		word-spacing: 0;
+		line-height: 20px;
+	}
+
+h1 {
+	font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h2, h3 {
+	font-weight: bold;
+	display: inline;
+}
+
+a {
+	color: #042703;
+}
+
+a:hover { color:#0C500A;}
+a:visited { color:#053213;}
+
+em {
+	font-style: italic;
+}
+
+ul li {
+	margin-left: 15px;
+	list-style: disc outside;
+}
+
+ul.linkList li {
+	list-style: none;
+}
+
+label, textarea {
+	margin-bottom: 5px;
+}
+
+label, input {
+	display: block;
+	line-height: normal;
+}
+
+.condencedText {
+	line-height: 15px;
+}
+
+	.condencedText span{
+		font-size: 85%;
+	}
+	
+form label .details
+	{
+		color: #6C6C6C;
+		font-size: 90%;
+	}
+	
+form .inputError {
+	background-color: #FFB7B7;
+}
+
+.formError {
+	color: #FF0D0D;
+}
+	
+.inline {display: inline;}
+
+.inlineBlock {display: inline-block;}
+	
+.underlined {text-decoration: underline;}
+
+.noWrap {
+	white-space: nowrap;
+}
+
+/* Special Items */
+.hoursUL { margin: 0 0 15px 15px;}
+
+	.hoursUL li {
+		list-style: none;
+	}
+	
+	/* Employment page */
+	div.side {
+		width: 300px;
+		float: right;
+	}
+	
+		div.side h1 {
+			font-size: 36px;
+			line-height: 30px;
+			text-align: right;
+		}
+		
+		div.side h4 {
+			font-size: 14px;
+			line-height: 14px;
+			font-weight: bold;
+		}
+		
+	div.stickySide {
+		position: fixed;
+		top: 0;
+		margin-left: 600px; 
+	}
+		
+	div.bodyWSide {
+		padding-right: 320px;
+	}
+	
+		div.bodyWSide h2 {
+			font-size: 24px;
+			line-height: 24px;
+			display: block;
+		}
+
+		div.bodyWSide h3, div.side h3 {
+			font-size: 18px;
+		}
+
+/* End Special Items */
+
+/* Footer */
+#footer {
+	line-height: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	padding: 0 10px 0 0;
+}
+
+	#footer .socialMedia {
+		background: url(../pics/socialMedia.gif) no-repeat;
+		height: 28px;
+		width: 28px;
+		float: right;
+		position: relative;
+		text-decoration: none;
+		margin-left: 10px;
+	}
+	
+	#footer #twitterIcon {
+		background-position: right;
+	}

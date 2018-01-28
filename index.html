@@ -2,17 +2,104 @@
 <html lang="en-US">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name='description' content='From Readfield, Wisconsin comes Oberstadt Landscape. Our selection is unique. Our professional expertise is unparalleled. Our creativity is inspired.'>
+  <meta name='keywords' content='Appleton, Wisconsin, landscaping, Oberstadt, nursery, garden center, nightlighting, trees, shrubs,  patios, walkways, retaining walls, maintance, construction, holiday lighting '>
+  <meta name='robots' content='index,follow' >
+
   <title>Oberstadt Landcape</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="style/reset.css" rel="stylesheet" type="text/css" />
+  <link href="style/default.css" rel="stylesheet" type="text/css" />
+  <link href="style/dropdown.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script src="js/swfobject.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    var flashvars = {};
+    var params = {};
+    params.menu = "false";
+    params.scale = "noborder";
+    var attributes = {id:"bea"};
+    attributes.align = "left";
+    swfobject.embedSWF("centerFlash.swf", "bodyPicture", "590", "520", "10.0.0", false, flashvars, params, attributes);
+
+    // This is the google script
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6831251-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 
 <body>
-  <h1>Oberstadt.com Unavailable</h1>
+<div id="container">    
+  <div id="header">
+  
+    <a href="./" id="logo"><img src="pics/oberstadt_logo.gif" alt="Oberstadt Landscapes Logo" border="0" /></a>
+      
+      <div id="nav">
+        <ul id="navUL" class="dropdown dropdown-horizontal">
+          <li class="dir">
+            <li><a href="/contactUs.html">Contact Us</a></li>
+          </li>
+          <li class="dir"><a href="/services.html">Services</a>
+            <ul>
+              <li><a href="/landsDesign.html">Landscape Design</a></li>
+              <li class="dir"><a href="/maint.html">Maintenance</a>
+                <ul>
+                  <li><a href="/programs.html">Programs</a></li>
+                  <li><a href="/cleaning.html">Spring/Fall Cleaning</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dir"><a href="/portfolio.html">Portfolio</a>
+            <ul>
+
+              <li><a href="/portfolio.html?cat=lands">Landscape</a></li>
+              <li><a href="/portfolio.html?cat=gc">Our Gardens</a></li>
+              <li><a href="/portfolio.html?cat=maint">Maintenance</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div> <!-- #nav -->
+  </div> <!-- #header -->
+
+  <div id="content">
+    <!-- <?php if($page != 'creatingYourLands' && $page != 'portfolio' ) { ?> -->
+    <div id="bodyPicture"></div>
+    <!-- <?php } ?> the body has: style='width: 100%; padding: 0 0 20px;' with bodyPicture-->
+
+    <div id="body">
+      <h1>Transforming ordinary landscapes into spectacular works of art</h1>
+      <p>For more than 25 years, the experts at Oberstadt Landscapes have been transforming ordinary outdoor areas into extraordinary spaces that have increased the beauty of our customer's homes and the value of their property.</p>
+      <p><h3>Inspiring Landscapes.</h3> Let us show you how Oberstadt Landscapes has built a reputation for being the premier provider of unique landscape design in the Fox Valley and beyond.</p>
+      <ul class="linkList">
+        <li>> <a href="/creatingYourLands.html">Creating Your Perfect Landscape</a></li>
+        <li>> <a href="/contactUs.html">Contact Us</a></li>
+      </ul>
+
+      <div id="footer">
+          Oberstadt Landscapes<br />
+          N352 County Road W<br />
+          Fremont, WI 54940<br />
+          (920) 667 - 4757
+      </div>
+    </div>
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
 </body>
 </html>
