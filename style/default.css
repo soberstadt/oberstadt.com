@@ -272,3 +272,7 @@ form .inputError {
 	#footer #twitterIcon {
 		background-position: right;
 	}
+
+figure {
+	display: inline-block;
+}
